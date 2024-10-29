@@ -24,9 +24,6 @@ tg.MainButton.setText("Вывести информацию по тельцу");
 item = "2";
 tg.MainButton.show();
 }
-
-56
-
 });
 Telegram.WebApp.onEvent("mainButtonClicked", function () {
 tg.sendData(item);
